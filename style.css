@@ -465,3 +465,14 @@ height: 90vh;}
 margin-left: 30%;
 margin-top: 3%;}
 
+@media (min-width: 768px) {
+  .cabecalho { padding: 1.25rem 0; }
+  .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2rem; align-items: center; }
+}
+
+/* ≥ 1024px (desktop) */
+@media (min-width: 1024px) {
+  .menu { gap: 1.5rem; }
+  .secao { display: grid; grid-template-columns: 320px 1fr; gap: 2rem; }
+}
+
